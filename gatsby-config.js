@@ -14,17 +14,17 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: 'gatsby-source-s3',
-      options: {
-        aws: {
-          accessKeyId: 'AKIAITDEARBPOLXUTRBA',
-          secretAccessKey: 'DgmDnlzYoGgp1DMzybKIsjA0qH5ny7+0iGfMzuIC',
-          // sessionToken: 'yoursessiontokenhere', // optional session token
-        },
-        buckets: ['reunidos-panel-webc2c5860a972d439496174bc218073web-reunidos'],
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-s3',
+    //   options: {
+    //     aws: {
+    //       accessKeyId: 'AKIAITDEARBPOLXUTRBA',
+    //       secretAccessKey: 'DgmDnlzYoGgp1DMzybKIsjA0qH5ny7+0iGfMzuIC',
+    //       // sessionToken: 'yoursessiontokenhere', // optional session token
+    //     },
+    //     buckets: ['reunidos-panel-webc2c5860a972d439496174bc218073web-reunidos'],
+    //   },
+    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

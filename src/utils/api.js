@@ -1,6 +1,6 @@
 export default {
-    baseUrl: 'http://localhost:5000/api/v1/',
-    // baseUrl: 'https://api.dev.reunidos.co/api/v1/',
+    // baseUrl: 'http://localhost:5000/api/v1/',
+    baseUrl: 'https://api.dev.reunidos.co/api/v1/',
     endpoints: {
   
       sendCode: 'sendCode',

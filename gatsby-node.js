@@ -42,10 +42,10 @@ exports.sourceNodes = async ({ actions }) => {
   const { createNode } = actions;
 
   try {
-    // const getCities = await axios.get('https://api.dev.reunidos.co/api/v1/cities')
-    // const getAlldata = await axios.get('https://api.dev.reunidos.co/api/v1/res_branch_office_app/miscarnitas.reunidos.co')
-    const getCities = await axios.get('http://localhost:5000/api/v1/cities')
-    const getAlldata = await axios.get('http://localhost:5000/api/v1/res_branch_office_app/miscarnitas.reunidos.co')
+    const getCities = await axios.get('https://api.dev.reunidos.co/api/v1/cities')
+    const getAlldata = await axios.get('https://api.dev.reunidos.co/api/v1/res_branch_office_app/miscarnitas.reunidos.co')
+    // const getCities = await axios.get('http://localhost:5000/api/v1/cities')
+    // const getAlldata = await axios.get('http://localhost:5000/api/v1/res_branch_office_app/miscarnitas.reunidos.co')
     // const getFile = await Storage.get('59ec8efb0a964d6d0dd8fd297e7854b1/01529ec71c10622225a45657ca071656.png', { download: true, level: 'public' })
     // const reader = new FileReader();
     // reader.readAsDataURL(getFile.Body); 
