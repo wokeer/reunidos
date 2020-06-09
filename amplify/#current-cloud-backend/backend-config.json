@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"reunidosaws086bb7ad": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"s3f20bcf84": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-reunidos-aws-awsres-162534-authRole",
+			"UnauthRoleArn": "arn:aws:iam::104986684655:role/amplify-reunidos-aws-awsres-162534-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::104986684655:role/amplify-reunidos-aws-awsres-162534-authRole",
+			"Region": "us-east-2",
+			"DeploymentBucketName": "amplify-reunidos-aws-awsres-162534-deployment",
+			"UnauthRoleName": "amplify-reunidos-aws-awsres-162534-unauthRole",
+			"StackName": "amplify-reunidos-aws-awsres-162534",
+			"StackId": "arn:aws:cloudformation:us-east-2:104986684655:stack/amplify-reunidos-aws-awsres-162534/f72ebfb0-8f16-11ea-99a3-02860fd3b864",
+			"AmplifyAppId": "dintfzb5n0kjq"
+		}
+	},
+	"auth": {
+		"reunidosaws086bb7ad": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-reunidos-aws-awsres-162534-deployment/amplify-cfn-templates/auth/reunidosaws086bb7ad-cloudformation-template.yml",
+				"logicalId": "authreunidosaws086bb7ad"
+			},
+			"lastPushTimeStamp": "2020-05-05T21:49:09.194Z",
+			"output": {
+				"AppClientSecret": "vs2ltojsk7is3jq7etgeosksjlkk2dle6j2ig09v7rh2klceqa",
+				"UserPoolId": "us-east-2_q6TuFU6GN",
+				"AppClientIDWeb": "28jubg8rsc7ist1mmi1uk314u7",
+				"AppClientID": "2jtb6fgv49c6gsduf9oe9thbl5",
+				"IdentityPoolId": "us-east-2:f7b98dd3-779d-481f-870e-3a1602a9f73e",
+				"IdentityPoolName": "reunidosaws086bb7ad_identitypool_086bb7ad__awsres",
+				"UserPoolName": "reunidosaws086bb7ad_userpool_086bb7ad"
+			},
+			"lastPushDirHash": "n5NhQZCy2GPc0w3vNwVgEYYlUuk="
+		}
+	},
+	"storage": {
+		"s3f20bcf84": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-reunidos-aws-awsres-162534-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+				"logicalId": "storages3f20bcf84"
+			},
+			"lastPushTimeStamp": "2020-05-05T21:49:09.194Z",
+			"output": {
+				"BucketName": "reunidos-aws6456b53dff1f4fdb9d8d24271450a462awsres-awsres",
+				"Region": "us-east-2"
+			},
+			"lastPushDirHash": "Suqb9VNkwVHP/9bLOLV6+Vvdssg="
+		}
+	}
+}
